@@ -26,6 +26,6 @@ if st.button("Predict"):
 
     # Ventilation logic
     if predicted_temp > 25:
-        st.success("Ventilation Status: OPEN (It's going to be warm!)")
+        st.success("Ventilation Status: OPEN - It's going to be warm.")
     else:
-        st.info("Ventilation Status: CLOSED (Cool or moderate weather)")
+        st.info("Ventilation Status: CLOSED - Cool or Moderate weather.")
